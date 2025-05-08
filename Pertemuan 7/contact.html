@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body>
+
+    <header>
+        <a href="index.html" class="logo">
+            <img src="Gambar/Gambar Utama/pp-removebg-preview.png" alt="Tanri Logo" style="height: 50px;">
+        </a>
+        <nav>
+            <a href="index.html" > Home</a>
+            <a href="index.html#favorite">My Favorite</a>
+            <a href="index.html#education">My Education</a>
+            <a href="project.html">Learing Highlights</a>
+            <a href="contact.html" class="active"> Contact</a>
+        </nav>
+    </header>
+
+<section class="contact-section">
+    <div class="contact-container">
+        <div class="contact-image">
+            <img src="Gambar/Gambar Utama/contact.jpg" alt="Contact Image">
+        </div>
+        <div class="contact-form">
+            <h1>Contact Us</h1>
+            <form onsubmit="kirimPesan(event)">
+                <input type="text" placeholder="Nama" required>
+                <input type="email" placeholder="Email" required>
+                <textarea placeholder="Pesan kamu" required></textarea>
+                <button type="submit">Kirim</button>
+              </form>
+              
+
+            <div class="contact-info">
+                <p><strong>Contact:</strong> tanriindra1139@gmail.com</p>
+                <p><strong>Based in:</strong> Batam, Indonesia</p>
+                <div class="social-icons">
+                    <a href="https://www.instagram.com/darkonly_/" target="_blank"><i class="fa-brands fa-instagram"></i></a> |
+                    <a href="https://github.com/Darkness0311" target="_blank"><i class="fa-brands fa-github"></i></a> |
+                    <a href="https://wa.me/6282284111419" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<script>
+    function kirimPesan(event) {
+      event.preventDefault(); // mencegah reload halaman
+      alert("Pesan berhasil dikirim!");
+      event.target.reset(); // mengosongkan form setelah dikirim
+    }
+  </script>
+  
+
+<footer class="footer">
+    <p>© 2025 Tanri. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>

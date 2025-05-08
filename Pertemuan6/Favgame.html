@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Bootstrap</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="Facgame.CSS">
+    <style>
+        /* Agar card tidak turun ke bawah */
+        .card-container {
+            display: flex;
+            gap: 10px;
+            overflow-x: auto; /* Bisa di-scroll ke samping */
+            padding: 10px;
+            white-space: nowrap;
+        }
+
+        .card {
+            min-width: 18rem; /* Agar ukuran kartu konsisten */
+            flex-shrink: 0;
+        }
+        .card-deck {
+            display: flex;
+            gap: 10px;
+            overflow-x: auto; /* Bisa di-scroll ke samping */
+            padding: 10px;
+            white-space: nowrap;
+        }
+    </style>
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="index.html">My Profile</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Favgame.html">My Favorite Things</a>
+            </li>
+          </ul>
+        </div>
+    </nav>
+ <h1> Favorite Games</h1>
+    <div class="card-container">
+     
+        <div class="card ">
+          <a href="https://albiononline.com" target="_blank">
+          <img class="card-img-top" src="img/th.jpeg" alt="albion">
+          </a>
+        </div>
+        <div class="card ">
+          <a href="https://store.steampowered.com/app/307690/Sleeping_Dogs_Definitive_Edition/" target="_blank">
+          <img class="card-img-top" src="img/sleeping.jpeg" alt="Slepping dogs"> 
+          </a>
+        </div>
+        <div class="card ">
+          <a href="https://store.steampowered.com/app/2215430/Ghost_of_Tsushima_DIRECTORS_CUT/" target="_blank">
+          <img class="card-img-top" src="img/ghost of thusima.jpg" alt="Ghost of thushima">
+          </a>
+        </div>
+        <div class="card ">
+          <a href="https://store.steampowered.com/app/33230/Assassins_Creed_2/" target="_blank">
+          <img class="card-img-top" src="img/Ass creed.jpeg" alt="ass 2">
+          </a>
+        </div>
+        <div class="card">
+          <a href="https://store.steampowered.com/app/242050/Assassins_Creed_IV_Black_Flag/" target="_blank">
+          <img class="card-img-top" src="img/ACBF_reg_ed_Cover.jpg" alt="black flag">
+          </a> 
+        </div>
+        <div class="card">
+          <a href="https://www.rockstargames.com/gta-v" target="_blank">
+          <img class="card-img-top" src="img/grand-theft-auto-v-hd.jpg" alt="pic">
+          </a>
+        </div>
+        <div class="card">
+          <a href="https://www.rockstargames.com/bully" target="_blank">
+          <img class="card-img-top" src="img/bully.jpg" alt="pic">
+          </a>
+        </div>
+        <div class="card">
+          <a href="https://store.steampowered.com/app/413150/Stardew_Valley/" target="_blank">
+          <img class="card-img-top" src="img/2_stardew_valley.jpg" alt="pic">
+          </a>
+        </div>    
+    </div>
+  </div>
+  <h1> Favorite Anime</h1>
+  <div class="card-deck">
+  <div class="card ">
+    <a href="https://myanimelist.net/anime/11757/Sword_Art_Online?q=Sword%20art%20online&cat=anime" target="_blank">
+    <img class="card-img-top" src="img/high_quality_4k_sao_sword_art_online_wallpaper_by_sdugoten_dfhab57-pre.jpg" alt="Pic">
+  </div>
+  <div class="card ">
+    <a href="https://myanimelist.net/anime/18897/Nisekoi?q=niseko&cat=animey" target="_blank">
+    <img class="card-img-top" src="img/Nisekoi.jpg" alt="pic">
+  </div>
+  <div class="card ">
+    <a href="https://myanimelist.net/anime/17895/Golden_Time?q=Golden%20Tim&cat=anime" target="_blank">
+    <img class="card-img-top" src="img/Golden Tme.jpg" alt="ass 2">
+  </div>
+  <div class="card">
+    <a href="https://myanimelist.net/anime/55071/Amagami-san_Chi_no_Enmusubi?q=Amagami%20CHi%20no%20&cat=anime" target="_blank">
+    <img class="card-img-top" src="img/Amagami-san.Chi.no.Enmusubi.full.4202587.jpg" alt="black flag"> 
+  </div>
+  <div class="card">
+    <a href="https://myanimelist.net/anime/52299/Ore_dake_Level_Up_na_Ken?q=Solo%20Level&cat=anime" target="_blank">
+    <img class="card-img-top" src="img/Solev.jpg" alt="pic">
+  </div>
+  <div class="card">
+    <a href="https://myanimelist.net/anime/14719/JoJo_no_Kimyou_na_Bouken_TV?q=Jojo%20bizare&cat=anime" target="_blank">
+    <img class="card-img-top" src="img/jojos-bizarre-adventure-all-star-battle_nfj8.1200.webp" alt="pic">
+  </div>
+  <div class="card">
+    <a href="https://myanimelist.net/anime/37999/Kaguya-sama_wa_Kokurasetai__Tensai-tachi_no_Renai_Zunousen?q=LOve%20is%20war&cat=anime" target="_blank">
+    <img class="card-img-top" src="img/LOve is war.jpg" alt="pic">
+  </div>
+
+</body>
+</html>

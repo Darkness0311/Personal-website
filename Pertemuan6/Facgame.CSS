@@ -1,0 +1,25 @@
+body {
+    background-color: #11212d;
+    background-size: cover; /* Agar gambar memenuhi seluruh layar */
+    background-position: center; /* Pusatkan gambar */
+    background-attachment: fixed; /* Agar background tidak bergeser saat scroll */
+    font-family: Arial, sans-serif;
+    color: white; /* Warna teks agar terlihat di atas background */
+   
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+   
+    
+}
+
+.card-img-top {
+    height: 200px; /* Atur tinggi gambar */
+    object-fit: cover; /* Crop gambar agar pas */
+    width: 100%; /* Sesuaikan lebar */
+}
+img {
+    pointer-events: auto;
+}
+
